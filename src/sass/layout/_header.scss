@@ -1,0 +1,37 @@
+/*
+
+Selectors need to be separated into /components i.e navbar, buttons,
+
+*/
+
+.page-header {}
+
+    .ph-navbar-wrap {}
+
+        .ph-navbar {}
+
+            .ph-sidebar-toggle {}
+
+            .ph-navbar-panel {}
+
+                .ph-navbar-toggle {}
+
+                .navbar-brand {}
+
+            .ph-sidebar-outer {}
+
+                .ph-navbar-nav-wrap {}
+
+                    .ph-navbar-nav {}
+
+                .ph-right-panel-toggle {}
+
+                .ph-navbar-outer .ph-navbar-top-panel {}
+
+                    .ph-navbar-inner {}
+
+                .ph-navbar-panel-right {}
+
+                    .ph-search-toggle {}
+
+                    .ph-navbar-search {}
