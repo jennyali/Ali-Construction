@@ -5839,5 +5839,186 @@ button.close {
             MIXINS
 
 =============================*/
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+    // Problem - Size of icons needs to reflect a heading/p font-size
+
+*/
+.ph-navbar__btn {
+  display: none; }
+  @media (min-width: 992px) {
+    .ph-navbar__btn {
+      display: inline-block; } }
+
+.ph-navbar__panel__btn {
+  display: inline-block; }
+  @media (min-width: 992px) {
+    .ph-navbar__panel__btn {
+      display: none; } }
+
+.ph-sidebar__btn,
+.ph-sidebar__right-panel__btn {
+  padding-top: 5px; }
+
+.ph-navbar__btn,
+.ph-navbar__panel__btn {
+  padding: 10px; }
+  .ph-navbar__btn .icon-bar,
+  .ph-navbar__panel__btn .icon-bar {
+    margin-bottom: 5px; }
+  .ph-navbar__btn .icon-bar:last-child,
+  .ph-navbar__panel__btn .icon-bar:last-child {
+    margin-bottom: 0px; }
+
+.ph-navbar__btn,
+.ph-navbar__panel__btn,
+.ph-sidebar__btn,
+.ph-sidebar__right-panel__btn {
+  background: transparent;
+  border: transparent;
+  outline: transparent;
+  height: 50px;
+  width: 50px;
+  font-size: 26px; }
+
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+.icon-bar {
+  background: #FFFFFF;
+  width: 30px;
+  height: 5px;
+  position: relative;
+  display: block; }
+
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+header.page-header {
+  padding-bottom: 0;
+  margin: 0;
+  border-bottom: none; }
+
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+.ph-navbar {
+  height: 50px;
+  position: relative; }
+
+.ph-navbar__panel {
+  display: inline-block; }
+
+.ph-sidebar {
+  width: 300px; }
+
+.ph-sidebar__right-panel {
+  display: inline-block; }
+
+.ph-sidebar__btn {
+  position: absolute;
+  top: 0;
+  right: 50px; }
+
+.ph-sidebar__right-panel__btn {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+/*
+
+    BLUE COLOR SCHEME FOR SITE
+
+*/
+body.theme-blue .theme-dark-bg, body.theme-blue .ph-navbar, body.theme-blue .ph-sidebar {
+  background: blue;
+  /*
+                    TYPOGRAPHY
+            */ }
+  body.theme-blue .theme-dark-bg h1, body.theme-blue .ph-navbar h1, body.theme-blue .ph-sidebar h1,
+  body.theme-blue .theme-dark-bg h2,
+  body.theme-blue .ph-navbar h2,
+  body.theme-blue .ph-sidebar h2,
+  body.theme-blue .theme-dark-bg h3,
+  body.theme-blue .ph-navbar h3,
+  body.theme-blue .ph-sidebar h3,
+  body.theme-blue .theme-dark-bg h4,
+  body.theme-blue .ph-navbar h4,
+  body.theme-blue .ph-sidebar h4,
+  body.theme-blue .theme-dark-bg h5,
+  body.theme-blue .ph-navbar h5,
+  body.theme-blue .ph-sidebar h5 {
+    color: #FFFFFF; }
+  body.theme-blue .theme-dark-bg p, body.theme-blue .ph-navbar p, body.theme-blue .ph-sidebar p {
+    color: #FFFFFF; }
+  body.theme-blue .theme-dark-bg ul, body.theme-blue .ph-navbar ul, body.theme-blue .ph-sidebar ul {
+    color: #FFFFFF; }
+  body.theme-blue .theme-dark-bg span, body.theme-blue .ph-navbar span, body.theme-blue .ph-sidebar span {
+    color: #FFFFFF; }
+
+/*
+
+    DEFAULT COLOR SCHEME FOR SITE
+
+*/
+body.theme-default {
+  /*============= DARK BACKGROUND ==================*/ }
+  body.theme-default .theme-dark-bg, body.theme-default .ph-navbar, body.theme-default .ph-sidebar {
+    background: #1b1b1b;
+    /*
+                TYPOGRAPHY
+        */ }
+    body.theme-default .theme-dark-bg h1, body.theme-default .ph-navbar h1, body.theme-default .ph-sidebar h1,
+    body.theme-default .theme-dark-bg h2,
+    body.theme-default .ph-navbar h2,
+    body.theme-default .ph-sidebar h2,
+    body.theme-default .theme-dark-bg h3,
+    body.theme-default .ph-navbar h3,
+    body.theme-default .ph-sidebar h3,
+    body.theme-default .theme-dark-bg h4,
+    body.theme-default .ph-navbar h4,
+    body.theme-default .ph-sidebar h4,
+    body.theme-default .theme-dark-bg h5,
+    body.theme-default .ph-navbar h5,
+    body.theme-default .ph-sidebar h5 {
+      color: #FFFFFF; }
+    body.theme-default .theme-dark-bg p, body.theme-default .ph-navbar p, body.theme-default .ph-sidebar p {
+      color: #FFFFFF; }
+    body.theme-default .theme-dark-bg a, body.theme-default .ph-navbar a, body.theme-default .ph-sidebar a {
+      color: #FFFFFF; }
+    body.theme-default .theme-dark-bg ul, body.theme-default .ph-navbar ul, body.theme-default .ph-sidebar ul {
+      color: #FFFFFF; }
+    body.theme-default .theme-dark-bg span, body.theme-default .ph-navbar span, body.theme-default .ph-sidebar span {
+      color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map*/

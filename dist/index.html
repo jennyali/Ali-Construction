@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
     
 <head>
     <title>Ali Construction Static</title>
@@ -18,6 +18,9 @@
 
     <!-- Main CSS Stylesheet -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Modernizer Script -->
+    <script src="lib/modernizr.js"></script>
     
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,7 +30,7 @@
 
 </head>
         
-<body>
+<body class="theme-default">
 
     <div class="page">
 
@@ -40,24 +43,28 @@
 
                 <nav class="ph-navbar">
 
-                    <button type="button" class="ph-sidebar-toggle hidden-sm hidden-xs" data-toggle="collapse" data-target=".ph-sidebar-outer">
-                        <span class="icon-bars"></span>
-                    </button><!-- Button toggle - .ph-sidebar-outer -->
+                    <button type="button" class="ph-navbar__btn hidden-sm hidden-xs" data-toggle="collapse" data-target=".ph-sidebar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!-- Button toggle - .ph-sidebar -->
 
-                    <div class="ph-navbar-panel">
+                    <div class="ph-navbar__panel">
 
-                        <button type="button" class="ph-navbar-toggle visible-xs visible-sm" data-toggle="collapse" data-target=".ph-navbar-nav">
-                            <span class="icon-bars"></span>
+                        <button type="button" class="ph-navbar__panel__btn" data-toggle="collapse" data-target=".ph-sidebar__wrap__nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                         </button><!-- Button toggle - #ph-navbar-nav -->
 
-                        <a href="index.html" class="navbar-brand">Ali Construction</a>
+                        <a href="index.html" class="ph-navbar__panel__brand">Ali Construction</a>
 
-                    </div><!-- .ph-navbar-panel -->
+                    </div><!-- .ph-navbar__panel -->
 
-                    <div class="ph-sidebar-outer collapse">
+                    <div class="ph-sidebar">
 
-                        <div class="ph-navbar-nav-wrap">
-                            <ul class="ph-navbar-nav collapse">
+                        <div class="ph-sidebar__wrap">
+                            <ul class="ph-sidebar__wrap__nav collapse">
 
                                 <li><a href="index.html">HOME</a></li>
                                 <li><a href="index.html">ABOUT</a></li>
@@ -76,15 +83,15 @@
                                     </ul>
                                 </li>
 
-                            </ul><!-- .ph-navbar-nav -->
-                        </div><!-- .ph-navbar-nav-wrap -->
+                            </ul><!-- .ph-sidebar__wrap__nav -->
+                        </div><!-- .ph-sidebar__wrap -->
 
-                        <button type="button" class="ph-right-panel-toggle" data-toggle="collapse" data-target=".ph-navbar-top-panel">
+                        <button type="button" class="ph-sidebar__btn" data-toggle="collapse" data-target=".ph-sidebar__top-panel">
                             <span class="icon-arrow-37"></span>
                         </button><!-- Button toggle - .ph-navbar-top-panel -->
 
-                        <div class="ph-navbar-outer ph-navbar-top-panel collapse">
-                            <div class="ph-navbar-inner">
+                        <div class="ph-sidebar__top-panel collapse">
+                            <div class="ph-sidebar__top-panel__inner">
 
                                 <ul class="list-unstyled">
                                     <li>address</li>
@@ -92,16 +99,16 @@
                                     <li>address</li>
                                 </ul>
 
-                            </div><!-- .ph-navbar-inner -->
-                        </div><!-- .ph-navbar-outer -->
+                            </div><!-- .ph-sidebar__top-panel__inner -->
+                        </div><!-- .ph-sidebar__top-panel -->
 
-                        <div class="ph-navbar-panel-right">
+                        <div class="ph-sidebar__right-panel">
 
-                            <button type="button" class="ph-search-toggle" data-toggle="collapse" data-target=".ph-navbar-search">
+                            <button type="button" class="ph-sidebar__right-panel__btn" data-toggle="collapse" data-target=".ph-sidebar__right-panel__search">
                                 <span class="icon-search"></span>
                             </button><!-- Button toggle - .ph-navbar-search -->
 
-                            <div class="ph-navbar-search collapse">
+                            <div class="ph-sidebar__right-panel__search collapse">
                                 <form>
                                     <div class="input-group">
                                         <input type="text" class="form-control" placeholder="Search">
@@ -112,11 +119,11 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div><!-- .ph-navbar-search -->
+                            </div><!-- .ph-sidebar__right-panel__search -->
 
-                        </div><!-- .ph-navbar-panel-right -->
+                        </div><!-- .ph-sidebar__right-panel -->
 
-                    </div><!-- .ph-sidebar-outer -->
+                    </div><!-- .ph-sidebar -->
 
                 </nav><!-- .ph-navbar -->
 

@@ -1,0 +1,61 @@
+/*
+
+    DEFAULT COLOR SCHEME FOR SITE
+
+*/
+
+body.theme-default {
+
+
+    /*============= DARK BACKGROUND ==================*/
+    
+    .theme-dark-bg {
+        background: $dark;
+    
+        /*
+                TYPOGRAPHY
+        */
+    
+        // Headings.
+    
+        h1 {}
+    
+        h2 {}
+    
+        h3 {}
+    
+        h4 {}
+    
+        h5 {}
+    
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: $light;
+        }
+    
+        // 'Small' text.
+        p {
+            color: $light;
+        }
+    
+        a {
+            color: $light;
+        }
+    
+        li {}
+    
+        ul {
+            color: $light;
+        }
+    
+        // 'icons'
+        span {
+            color: $light;
+        }
+    
+    }
+    
+}
