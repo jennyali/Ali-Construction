@@ -1,0 +1,60 @@
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+    // Problem - Size of icons needs to reflect a heading/p font-size
+
+*/
+
+.ph-navbar__btn {
+    display: none;
+
+    @include mediaQ-min($bp-md) {
+        display: inline-block;
+    }
+}
+
+.ph-navbar__panel__btn {
+    display: inline-block;
+    
+    @include mediaQ-min($bp-md) {
+        display: none;
+    }
+}
+
+.ph-sidebar__btn,
+.ph-sidebar__right-panel__btn {
+    padding-top: 5px;
+}
+
+.ph-navbar__btn,
+.ph-navbar__panel__btn {
+    padding: 10px;
+
+    .icon-bar {
+        margin-bottom: 5px;
+    }
+
+    .icon-bar:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.ph-navbar__btn,
+.ph-navbar__panel__btn,
+.ph-sidebar__btn,
+.ph-sidebar__right-panel__btn {
+    background: transparent;
+    border: transparent;
+    outline: transparent;
+
+    height: $page-header-height;
+    width: $page-header-button-width;
+
+
+    font-size: 26px;
+}
+
+// ======== page header END ==================//

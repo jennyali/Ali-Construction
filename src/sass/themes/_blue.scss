@@ -1,0 +1,68 @@
+/*
+
+    BLUE COLOR SCHEME FOR SITE
+
+*/
+
+
+body.theme-blue {
+
+    $colors : (
+        primary: blue,
+        light: #FFFFFF,
+        dark: #1b1b1b,
+        light-grey: #f6f6f6,
+    );
+    
+    $primary-color: map-get($map: $colors, $key: primary);
+    $dark: map-get($map: $colors, $key: dark);
+    $light: map-get($map: $colors, $key: light);
+    $light-grey: map-get($map: $colors, $key: light-grey);
+    
+        .theme-dark-bg {
+            background: $primary-color;
+        
+            /*
+                    TYPOGRAPHY
+            */
+        
+            // Headings.
+        
+            h1 {}
+        
+            h2 {}
+        
+            h3 {}
+        
+            h4 {}
+        
+            h5 {}
+        
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                color: $light;
+            }
+        
+            // 'Small' text.
+            p {
+                color: $light;
+            }
+        
+            a {}
+        
+            li {}
+        
+            ul {
+                color: $light;
+            }
+        
+            // 'icons'
+            span {
+                color: $light;
+            }
+        
+        }
+    }

@@ -1,0 +1,45 @@
+/*
+
+    PAGE HEADER
+    -----------------
+    ph = page header
+
+*/
+
+.ph-navbar {
+    @extend .theme-dark-bg;
+    height: $page-header-height;
+    position: relative;
+}
+
+.ph-navbar__panel {
+    display: inline-block;
+}
+
+.ph-sidebar {
+    @extend .theme-dark-bg;
+    width: 300px;
+}
+
+.ph-sidebar__wrap {}
+
+.ph-sidebar__top-panel {}
+
+.ph-sidebar__right-panel {
+    display: inline-block;
+}
+
+.ph-sidebar__btn {
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.ph-sidebar__right-panel__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+// ======== page header END ==================//
+
